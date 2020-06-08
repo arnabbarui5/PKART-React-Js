@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --mainRed: #FF0000;
+  --lightRed: #FFE5E5;
+  --mainPurple: #FF3300;
+  --superRed: #dc3545;	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Fira Sans', sans-serif;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Hind Madurai', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-bright{
+  color: var(--lightBlue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active-pink-4 input[type="text"]:focus:not([readonly]){
+  border: 1px solid #000000;
+  box-shadow: 0 0 0 1px #000000;
+  
+}
+.active-pink-3 input[type="text"] {
+  border: 1px solid #000000;
+  box-shadow: 0 0 0 1px hsl(0, 0%, 0%);
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-brand {
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  margin: 4px;
+}
+.ml-auto{
+  margin-right: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link{
+  font-size: 20px;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+
+}
+
+.thank {
+  color: var(--mainRed);
 }

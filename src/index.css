@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-footer 
+{
+  padding: 10px 0;
+  margin-top: 15px;
+  background-color: #101010;
+  color:#9d9d9d;
+  bottom: 0;
+  width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.bag {
+  color: #ffffff;
+  font-size: small;
+  display: inline;
+}
+
+.bag:hover {
+  color: #ffffff;
+}
+
+.search-bar {
+  height: 35px;
+  width: 25rem;
+  border-radius: 8px;
+  text-align: left;
+  border: 2px solid #ffffff;
+  margin-bottom: 3px;
+  margin-left: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.text-color {
+  color: #66CD00;
+  font-variant: normal;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.discount {
+  color: orange;
+  font-weight: 500;
+}
+
+.final-price {
+  color: orange;
+  font-weight: 700;
+}
+
+.best-price {
+  font-weight: 700;
+}
+
+.offer {
+  align-content: center;
+}
+.heart {
+  color: red;
+  font-size: x-small;
+  margin-bottom: 5px;
+}
+
+.button-footer {
+  color: white;
+  background-color: var(--superRed);
+  outline: none;
+  border-radius: 2px;
+  border: 2px solid var(--superRed);
+  padding: 2px;
+}
+
+.input-footer {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.fb {
+  font-size: large;
+  color: #ffffff;
+  outline: none;
+}
+
+.tw {
+  font-size: large;
+  color: #ffffff;
+  outline: none;
+}
+
+.social {
+  margin-top: 5px;
+}
+
+.commit {
+  margin-top: 2px;
+}
+
+.about {
+  margin-top: 20px;
+  text-decoration: none;
+  list-style-type: none;
+}
